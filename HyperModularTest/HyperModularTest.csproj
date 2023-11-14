@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Module_1_Abstraction\Module_1_Abstraction.csproj" />
+    <ProjectReference Include="..\Module_2_Abstraction\Module_2_Abstraction.csproj" />
+    <ProjectReference Include="..\Module_3_Abstraction\Module_3_Abstraction.csproj" />
+  </ItemGroup>
+
+</Project>
